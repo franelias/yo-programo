@@ -13,10 +13,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { DescripcionComponent } from './descripcion/descripcion.component';
 import { MatDividerModule } from '@angular/material/divider';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { ItemComponent } from './item/item.component';
+import { EducacionComponent } from './educacion/educacion.component';
 
 
 @NgModule({
-  declarations: [AppComponent, BannerComponent, HeaderComponent, DescripcionComponent, ExperienciaComponent],
+  declarations: [AppComponent, BannerComponent, HeaderComponent, DescripcionComponent, ExperienciaComponent, ItemComponent, EducacionComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
