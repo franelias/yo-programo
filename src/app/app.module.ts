@@ -11,9 +11,12 @@ import { BannerComponent } from './banner/banner.component';
 import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DescripcionComponent } from './descripcion/descripcion.component';
+import { MatDividerModule } from '@angular/material/divider';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
+
 
 @NgModule({
-  declarations: [AppComponent, BannerComponent, HeaderComponent, DescripcionComponent],
+  declarations: [AppComponent, BannerComponent, HeaderComponent, DescripcionComponent, ExperienciaComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -22,8 +25,9 @@ import { DescripcionComponent } from './descripcion/descripcion.component';
     MatIconModule,
     MatCardModule,
     HttpClientModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
